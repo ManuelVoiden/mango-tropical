@@ -3,12 +3,12 @@
     --color2: #1BE7FF;
     --color3: #6EEB83;
     --color4: #ffd23f;
-    --color5: #EE4266;
+    --color5: #f7edf0;
     --colorcontrast: black;
 }
 
 body {
-    display: flex;
+    display: flex; 
     flex-direction: column;
 }
 
@@ -91,26 +91,37 @@ ul li {
 .cuerpo.bloque1 {
     display: flex;
     flex-direction: row;
+    justify-content: right;
 }
 
 .bloque1_right{
     flex: 1;
+    border: 2px solid royalblue;
 }
 
 .bloque1_left{
-    flex: 1;
+    flex: 2.8;
+    border: 2px solid royalblue;
 }
 
 .page_title {
     font-family: 'Titillium Web', sans-serif;
+    font-size: 48px;
 }
 
 .page_title_text {
     font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
 }
 
 .page_title_image {
-    width: 350px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.page_title_button {
+    text-decoration: none;
 }
 
 
