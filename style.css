@@ -1,8 +1,16 @@
+* {
+    --color1: #730071;
+    --color2: #1BE7FF;
+    --color3: #6EEB83;
+    --color4: #FFBD00;
+    --color5: #FF5714;
+    --colorcontrast: white;
 
+}
 
 .header {
     display: flex;
-    background-color: #730071 ;
+    background-color: var(--color1) ;
     width: 100%;
     height: 80px;
     box-shadow: 0 0 8px rgba(0,0,0,0.7);
@@ -37,13 +45,13 @@
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 50%;
-    border: 5px white solid;
+    border: 5px var(--colorcontrast) solid;
     margin-right: 15px;
 }
 
 .header_logo_text {
     font-family: 'Style Script', cursive;
-    color: white;
+    color: var(--colorcontrast);
     font-size: 36px;
     line-height: 75px;
 }
@@ -51,7 +59,7 @@
 a {
     /* this removes the line under our links */
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--colorcontrast);
     font-size: 18px;
     padding-left: 20px;
 }
