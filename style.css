@@ -41,6 +41,7 @@ a {
     /* this removes the line under our links */
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding-left: 20px;
 }
   
 ul {
