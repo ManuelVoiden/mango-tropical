@@ -9,6 +9,34 @@
     gap: 20px;
 }
 
+.header_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px green solid;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.header_right {
+    display: flex;
+    flex-direction: row;
+    border: 2px yellow solid;
+}
+
+.header_left {
+    display: flex;
+    flex-direction: row;
+    border: 2px yellow solid;
+}
+
+.header_logo_text {
+    font-family: 'Style Script', cursive;
+    color: white;
+    font-size: 36px;
+}
+
 a {
     /* this removes the line under our links */
     text-decoration: none;
