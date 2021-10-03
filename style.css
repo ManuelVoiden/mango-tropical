@@ -112,6 +112,7 @@ ul li {
 .page_title_text {
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
+    padding-bottom: 40px;
 }
 
 .page_title_image {
@@ -124,6 +125,8 @@ ul li {
     text-decoration: none;
     background-color: var(--color1);
     color: var(--color5);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
 }
 
 
