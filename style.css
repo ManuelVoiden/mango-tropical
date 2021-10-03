@@ -122,6 +122,8 @@ ul li {
 
 .page_title_button {
     text-decoration: none;
+    background-color: var(--color1);
+    color: var(--color5);
 }
 
 
