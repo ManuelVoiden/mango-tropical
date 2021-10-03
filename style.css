@@ -1,8 +1,10 @@
+
+
 .header {
     display: flex;
     background-color: #730071 ;
     width: 100%;
-    height: 75px;
+    height: 80px;
     box-shadow: 0 0 8px rgba(0,0,0,0.7);
     display: flex;
     align-items: center;  
@@ -13,27 +15,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px green solid;
     width: 100%;
     padding-left: 8%;
     padding-right: 8%;
+    height: 100%;
 }
 
 .header_right {
     display: flex;
     flex-direction: row;
-    border: 2px yellow solid;
 }
 
 .header_left {
     display: flex;
     flex-direction: row;
-    border: 2px yellow solid;
 }
 
 .header_logo {
     height: 70px;
-    line-height: 75px;
+    line-height: 80px;
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 50%;
@@ -52,9 +52,11 @@ a {
     /* this removes the line under our links */
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding-left: 20px;
     font-size: 18px;
+    padding-left: 20px;
 }
+ 
+
   
 ul {
     /* this removes the dot on our links and use the padding to delete the space left empty by the removal of the dot */
