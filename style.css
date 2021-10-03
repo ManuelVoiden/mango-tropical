@@ -31,10 +31,21 @@
     border: 2px yellow solid;
 }
 
+.header_logo {
+    height: 70px;
+    line-height: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    border: 5px white solid;
+    margin-right: 15px;
+}
+
 .header_logo_text {
     font-family: 'Style Script', cursive;
     color: white;
     font-size: 36px;
+    line-height: 75px;
 }
 
 a {
@@ -42,6 +53,7 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding-left: 20px;
+    font-size: 18px;
 }
   
 ul {
