@@ -8,3 +8,19 @@
     align-items: center;  
     gap: 20px;
 }
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+  
+ul {
+    /* this removes the dot on our links and use the padding to delete the space left empty by the removal of the dot */
+    list-style-type: none;
+    padding-left: 0px;
+}
+  
+li {
+    display: inline-flex;
+}
