@@ -154,7 +154,9 @@ ul li {
 .bloque2_contenido {
     display: flex;
     flex-direction: row;
-    margin: auto;
+    justify-content: space-around;
+    border: 2px forestgreen solid;
+    width: 100%;
 }
 
 .bloque2{
@@ -163,6 +165,19 @@ ul li {
     height: 450px;
     padding-left: 15%;
     padding-right: 15%;
+
 }
 
+.cuerpo.bloque2{
+    border: 2px blue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque2_caja {
+    height: 300px;
+    width: 200px;
+    border: 2px red solid;
+}
 
