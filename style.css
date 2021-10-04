@@ -71,7 +71,7 @@ li a{
   
 ul .links{
     /* this removes the dot on our links and use the padding to delete the space left empty by the removal of the dot */
-    list-style-type: none;1 
+    list-style-type: none;
     padding-left: 0px;
 }
   
