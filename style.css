@@ -181,16 +181,20 @@ ul li {
     border: 2px red solid;
 }
 
+/*
 .bloque2_caja_img {
     width: auto;
     object-fit: cover;
 
 }
+*/
 
 .caja_img{
-
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
 .bloque2_caja_texto {
