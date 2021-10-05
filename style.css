@@ -174,7 +174,7 @@ ul li {
 }
 
 .bloque2_caja {
-    height: 300px;
+    height: 200px;
     width: 200px;
 }
 
@@ -196,4 +196,5 @@ ul li {
 
 .bloque2_caja_texto {
     text-align: center;
+    padding-top: 10px;
 }
