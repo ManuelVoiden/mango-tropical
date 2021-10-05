@@ -181,3 +181,18 @@ ul li {
     border: 2px red solid;
 }
 
+.bloque2_caja_img {
+    width: auto;
+    object-fit: cover;
+
+}
+
+.caja_img{
+
+    object-fit: cover;
+
+}
+
+.bloque2_caja_texto {
+    text-align: center;
+}
