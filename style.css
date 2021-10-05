@@ -155,7 +155,6 @@ ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 2px forestgreen solid;
     width: 100%;
 }
 
@@ -169,7 +168,6 @@ ul li {
 }
 
 .cuerpo.bloque2{
-    border: 2px blue solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,7 +176,6 @@ ul li {
 .bloque2_caja {
     height: 300px;
     width: 200px;
-    border: 2px red solid;
 }
 
 /*
