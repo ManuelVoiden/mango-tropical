@@ -252,7 +252,6 @@ ul li {
     height: 325px;
     padding-left: 15%;
     padding-right: 15%;
-    border: 2px blue solid;
 }
 
 .cuerpo.bloque4 {
@@ -260,7 +259,6 @@ ul li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px green solid;
 
 }
 
@@ -282,7 +280,7 @@ ul li {
     align-items: center;
 }
 
-.bloque4_caja_boton {
+.bloque4_caja_boton_boton {
     text-decoration: none;
     background-color: var(--color1);
     color: var(--color5);
@@ -293,8 +291,28 @@ ul li {
     border: 3px solid var(--color5);
 }
 
-.bloque4_caja_boton:hover {
+.bloque4_caja_boton_boton:hover {
     background-color: var(--color5);
     color: var(--color1);
     border: 3px solid var(--color1);
+}
+
+.bloque4_caja_texto {
+    padding-right: 35px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.bloque4_caja_texto_superior {
+    font-size: 28px;
+}
+
+.footer_div {
+    display: flex;
+    background-color: var(--color4);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    font-family: 'Titillium Web', sans-serif;
 }
