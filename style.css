@@ -250,8 +250,8 @@ ul li {
     background-color: var(--color5);
     width: 100%;
     height: 325px;
-    padding-left: 17.5%;
-    padding-right: 17.5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .cuerpo.bloque4 {
@@ -270,4 +270,6 @@ ul li {
 .bloque4_caja {
     display: flex;
     flex-direction: row;
+
+
 }
