@@ -225,6 +225,11 @@ ul li {
 
 .bloque3_contenido {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
+}
+
+.bloque3_quote{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
 }
