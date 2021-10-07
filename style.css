@@ -157,6 +157,7 @@ ul li {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 
 .bloque2{
@@ -175,8 +176,10 @@ ul li {
 }
 
 .bloque2_caja {
-    height: 200px;
+    height: auto;
     width: 200px;
+    align-items: center;
+    position: relative;
 }
 
 /*
